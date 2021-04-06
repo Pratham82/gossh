@@ -34,7 +34,9 @@ chmod u+x ~/go-ssh-cli.sh
 ### 4. Make an alias for **go-ssh** in your bashrc or zshrc
 
 ```
-echo 'alias gossh="~/go-ssh-cli.sh"'
+echo 'alias gossh="~/go-ssh-cli.sh"' >> .bashrc 
+OR
+echo 'alias gossh="~/go-ssh-cli.sh"' >> .zshrc 
 ```
 
 ### 5. Restart your shell session or just source it
